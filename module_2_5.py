@@ -1,11 +1,11 @@
 def get_matrix(n, m, value):
     column = []
-    result_list = []
+    matrix = []
     for j in range(m):
         column.append(value)
     for i in range(n):
-        result_list.append(column)
-    return result_list
+        matrix.append(column)
+    return matrix
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
